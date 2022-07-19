@@ -1,0 +1,92 @@
+.banner {
+  position: relative;
+  padding-top: 35px;
+  &-wrap {
+    display: block;
+  }
+  &-top_img-link {
+    display: block;
+  }
+  &-top_img {
+    object-fit: cover;
+  }
+  &-gallery {
+    padding-bottom: 30px;
+  }
+  &-top_item{
+    position: relative;
+    &--content {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    &--title {
+      position: absolute;
+      top: 50%;
+      bottom: 50%;
+      left: 0;
+      right: 0;
+      color: #fff;
+      height: 25px;
+      text-align: center;
+      font-size: 2.9rem;
+      font-weight: 900;
+      line-height: 2.5rem;
+      margin: 0;
+    }
+    
+  }
+  &-title_block {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    &--text {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 2.5rem;
+      font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+      margin-bottom: 40px;
+    }
+  }
+  // banner_products--
+  &_products {
+    display: block;
+    padding-bottom: 81px;
+    &--image {
+      object-fit: cover;
+    }
+    &-info {
+      margin-top: 15px;
+      &--rating {
+        margin-top: 5px;
+        margin-bottom: 15px;
+      }
+      &--star {
+        display: inline-block;
+        color: #fad78b;
+        margin-right: 2px;
+      }
+      &--name a {
+        text-decoration: none;
+        font-size: 1.4rem;
+        color: #444;
+        font-weight: 700;
+        font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+        &:hover {
+          color: #ff6000;
+        }
+      }
+      &--price span {
+        display: block;
+        font-size: 1.4rem;
+        color: #444;
+        font-weight: 800;
+        font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+      }
+    }
+  }
+  
+
+}

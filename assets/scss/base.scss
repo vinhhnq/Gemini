@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Poppins,HelveticaNeue,Helvetica Neue,sans-serif, Roboto, sans-serif;
+
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+.spacing-10 {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+.spacing-20 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.full-width {
+  width: 100% !important;
+}
+
+.text-transform-uppercase {
+  text-transform: uppercase !important;
+}
+
+.col-prd {padding: 0 15px;}
+.img-prd {
+  height: 100%;
+  width: 100%;
+}
+
+.row-mg {
+  margin: 0 -20px !important;
+}
+pb-30 {
+  padding-bottom: 30px !important;
+}

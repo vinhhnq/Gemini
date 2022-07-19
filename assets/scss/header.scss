@@ -1,0 +1,52 @@
+.header {
+  padding: 35px 0 0;
+  display: flex;
+  align-items: center;
+  &-logo {
+    display: block;
+    margin-right: 300px;
+  }
+  &-menu_navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  &-menu_list {
+    display: flex;
+    align-items: center;
+  }
+
+
+  &-menu_items a {
+    margin: 6px 16px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+  &-icons_wrapper {
+    margin-left: 330px;
+    display: flex;
+    align-items: center;
+  }
+  &-icons_item {
+    padding: 0 20px 0 0;
+    margin: 0 20px 0 0;
+  }
+  &-icons_link {
+    color: #222;
+    font-size: 2.5rem;
+    &:hover {
+      color: orange;
+    }
+  }
+
+}

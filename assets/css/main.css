@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Poppins, HelveticaNeue, Helvetica Neue, sans-serif, Roboto, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.spacing-10 {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.spacing-20 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.text-transform-uppercase {
+  text-transform: uppercase !important;
+}
+
+.col-prd {
+  padding: 0 15px;
+}
+
+.img-prd {
+  height: 100%;
+  width: 100%;
+}
+
+.row-mg {
+  margin: 0 -20px !important;
+}
+
+pb-30 {
+  padding-bottom: 30px !important;
+}
+
+.header {
+  padding: 35px 0 0;
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  display: block;
+  margin-right: 300px;
+}
+.header-menu_navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.header-menu_list {
+  display: flex;
+  align-items: center;
+}
+.header-menu_items a {
+  margin: 6px 16px;
+  color: #222;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.header-icons_wrapper {
+  margin-left: 330px;
+  display: flex;
+  align-items: center;
+}
+.header-icons_item {
+  padding: 0 20px 0 0;
+  margin: 0 20px 0 0;
+}
+.header-icons_link {
+  color: #222;
+  font-size: 2.5rem;
+}
+.header-icons_link:hover {
+  color: orange;
+}
+
+.banner {
+  position: relative;
+  padding-top: 35px;
+}
+.banner-wrap {
+  display: block;
+}
+.banner-top_img-link {
+  display: block;
+}
+.banner-top_img {
+  object-fit: cover;
+}
+.banner-gallery {
+  padding-bottom: 30px;
+}
+.banner-top_item {
+  position: relative;
+}
+.banner-top_item--content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.banner-top_item--title {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  height: 25px;
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+  margin: 0;
+}
+.banner-title_block {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.banner-title_block--text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  margin-bottom: 40px;
+}
+.banner_products {
+  display: block;
+  padding-bottom: 81px;
+}
+.banner_products--image {
+  object-fit: cover;
+}
+.banner_products-info {
+  margin-top: 15px;
+}
+.banner_products-info--rating {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.banner_products-info--star {
+  display: inline-block;
+  color: #fad78b;
+  margin-right: 2px;
+}
+.banner_products-info--name a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #444;
+  font-weight: 700;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+}
+.banner_products-info--name a:hover {
+  color: #ff6000;
+}
+.banner_products-info--price span {
+  display: block;
+  font-size: 1.4rem;
+  color: #444;
+  font-weight: 800;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+}
+
+.testimonial {
+  background: #f2f2f2;
+  padding-top: 70px;
+  padding-bottom: 72px;
+}
+.testimonial-title-block {
+  display: block;
+  margin-bottom: 26px;
+}
+.testimonial-title-block_text {
+  font-size: 3rem;
+  color: #222;
+  margin-bottom: 26px;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  font-weight: 800;
+  text-transform: none;
+}
+.testimonial-title-block_sub {
+  display: block;
+  font-size: 10px;
+  color: #909090;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  font-weight: 400;
+  font-style: initial;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

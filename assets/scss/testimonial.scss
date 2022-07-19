@@ -1,0 +1,30 @@
+.testimonial {
+  background: #f2f2f2;
+  padding-top: 70px;
+  padding-bottom: 72px;
+  &-title-block{
+    display: block;
+    margin-bottom: 26px;
+     &_text {
+      font-size: 3rem;
+      color: #222;
+      margin-bottom: 26px;
+      font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+      font-weight: 800;
+      text-transform: none;
+      
+    }
+    &_sub {
+      display: block;
+      font-size: 10px;
+      color: #909090;
+      font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+      font-weight: 400;
+      font-style: initial;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 0;
+    }
+    
+  }
+}
