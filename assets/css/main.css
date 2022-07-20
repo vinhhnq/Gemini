@@ -62,6 +62,14 @@ pb-30 {
   padding-bottom: 30px !important;
 }
 
+.text-left {
+  text-align: left !important;
+}
+
+.distance {
+  padding: 70px 0 !important;
+}
+
 .header {
   padding: 35px 0 0;
   display: flex;
@@ -203,8 +211,6 @@ pb-30 {
 
 .testimonial {
   background: #f2f2f2;
-  padding-top: 70px;
-  padding-bottom: 72px;
 }
 .testimonial-slider {
   padding: 0 15px;
@@ -212,6 +218,7 @@ pb-30 {
 .testimonial-items {
   background-color: #fff;
   padding: 35px 40px 30px;
+  margin: 0 15px;
   box-shadow: 0 4px 10px #00000026;
 }
 .testimonial-items_name {
@@ -260,6 +267,33 @@ pb-30 {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 0;
+}
+
+.instagram-block_text {
+  margin-top: 40px;
+}
+.instagram-block_text h1 {
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.instagram-block_text p {
+  font-size: 1.2rem;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 0;
+  width: 82%;
+}
+.instagram-img {
+  display: flex;
+}
+.instagram-img_image {
+  height: 230px;
+  width: 230px;
+  object-fit: cover;
+  padding: 0 1px;
 }
 
 /*# sourceMappingURL=main.css.map */
