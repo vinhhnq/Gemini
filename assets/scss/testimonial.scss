@@ -2,6 +2,39 @@
   background: #f2f2f2;
   padding-top: 70px;
   padding-bottom: 72px;
+  &-slider {
+    padding: 0 15px;
+  }
+  &-items {
+    background-color: #fff;
+    padding: 35px 40px 30px;
+    // margin: 0 15px;
+    box-shadow: 0 4px 10px #00000026;
+    &_name {
+      font-size: 1.4rem;
+      font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 7px;
+    }
+    &_info {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      color: #909090;
+      margin-bottom: 15px;
+    }
+    &_star {
+      color: #f9c964;
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+    p {
+      font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+      font-size: 1.5rem;
+      font-style: italic;
+      color: #909090;
+    }
+  }
   &-title-block{
     display: block;
     margin-bottom: 26px;
