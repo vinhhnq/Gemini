@@ -62,8 +62,12 @@ pb-30 {
   padding-bottom: 30px !important;
 }
 
-.text-center {
-  text-align: center !important;
+.text-left {
+  text-align: left !important;
+}
+
+.distance {
+  padding: 70px 0 !important;
 }
 
 .header {
@@ -73,7 +77,7 @@ pb-30 {
 }
 .header-logo {
   display: block;
-  margin-right: 300px;
+  margin-right: 360px;
 }
 .header-menu_navigation {
   display: flex;
@@ -100,17 +104,16 @@ pb-30 {
   line-height: 1.5rem;
 }
 .header-icons_wrapper {
-  margin-left: 330px;
+  margin-left: 360px;
   display: flex;
   align-items: center;
 }
-.header-icons_item {
-  padding: 0 20px 0 0;
-  margin: 0 20px 0 0;
+.header-icons_item:not(:last-child) {
+  padding: 0 40px 0 0;
 }
 .header-icons_link {
   color: #222;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 .header-icons_link:hover {
   color: orange;
@@ -206,7 +209,90 @@ pb-30 {
 }
 
 .testimonial {
+  background: #f2f2f2;
+}
+.testimonial-slider {
+  padding: 0 15px;
+}
+.testimonial-items {
+  background-color: #fff;
+  padding: 35px 40px 30px;
+  margin: 0 15px;
+  box-shadow: 0 4px 10px #00000026;
+}
+.testimonial-items_name {
+  font-size: 1.4rem;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+.testimonial-items_info {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #909090;
+  margin-bottom: 15px;
+}
+.testimonial-items_star {
+  color: #f9c964;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+.testimonial-items p {
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #909090;
+}
+.testimonial-title-block {
   display: block;
+  margin-bottom: 26px;
+}
+.testimonial-title-block_text {
+  font-size: 3rem;
+  color: #222;
+  margin-bottom: 26px;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  font-weight: 800;
+  text-transform: none;
+}
+.testimonial-title-block_sub {
+  display: block;
+  font-size: 10px;
+  color: #909090;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  font-weight: 400;
+  font-style: initial;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+.instagram-block_text {
+  margin-top: 50px;
+}
+.instagram-block_text h1 {
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.instagram-block_text p {
+  font-size: 1.3rem;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 0;
+  width: 82%;
+}
+.instagram-img {
+  display: flex;
+}
+.instagram-img_image {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  padding: 0 1px;
 }
 
 /*# sourceMappingURL=theme.css.map */

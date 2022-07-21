@@ -19,17 +19,27 @@
   <link rel="stylesheet" type="text/css" href="./slick-1.8.1 /slick/slick-theme.css"/>
   <link rel="stylesheet" type="text/css" href="./assets/css/main.css"/>
   <link rel="stylesheet" href="./OwlCarousel2/dist/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="./OwlCarousel2/dist/assets/owl.theme.default.css"> 
+  <link rel="stylesheet" href="./OwlCarousel2/dist/assets/owl.theme.default.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script type="text/javascript" src="./assets/js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="./assets/js/slick.min.js"></script>
   <script type="text/javascript" src="./assets/js/main.js"></script>
   <script src="./OwlCarousel2/dist/owl.carousel.js"></script>
   <script src="./OwlCarousel2/dist/owl.carousel.min.js"></script>
   <script src="./assets/js/carousel.js"></script>
+  <style>
+    .container-ct {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  </style>
 </head>
 <body>
   <div class="wrapper">
-    <div class="container-lg">
+    <div class="container-ct">
       <!-- header -->
       <header class="header">
         <a href="#" class="header-logo">
@@ -58,21 +68,22 @@
           <div class="header-icons_wrapper">
             <div class="header-icons_item">
               <a href="#" class="header-icons_link">
-                <i class="header-icon_search fa-solid fa-magnifying-glass"></i>
+                <ion-icon name="search-outline"></ion-icon>
               </a>
             </div>
             <div class="header-icons_item">
               <a href="#" class="header-icons_link">
-                <i class="header-icon_user fa-regular fa-user"></i>
+                <ion-icon name="person-outline"></ion-icon>
               </a>
             </div>
             <div class="header-icons_item">
               <a href="#" class="header-icons_link">
-                <i class="header-icon_cart fa-solid fa-cart-shopping"></i>
+                <ion-icon name="cart-outline"></ion-icon>
               </a>
             </div>
           </div>
       </header>
+
       <!-- banner -->
       <section class ="banner">
         <div class="row spacing-10">
@@ -572,7 +583,7 @@
             </div>
           </div>
         </div>
-      
+
         <div class="row row-mg">
           <div class="banner-title_block">
             <span class="banner-title_block--text">Hoodies</span>
@@ -851,6 +862,7 @@
         </div>
       </section>
 
+      <!-- instagram -->
       <section class="row instagram distance">
         <div class="col-4 instagram-block_text text-left">
           <h1>Instagram</h1>
@@ -872,8 +884,63 @@
         </div>
       </section>
 
+      <!-- footer -->
       <footer class="footer distance">
-        
+        <div class="footer-block">
+          <div class="row">
+            <div class="col footer-logo">
+              <img src="./image/footer-logo.png" alt="" class="footer-logo_image">
+              <div class="footer-social">
+                <div class="footer-social_block">
+                  <ul class="footer-social_icons">
+                    <li class="footer-social_icons-items">
+                      <a href="" class="footer-social_icons-link">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="footer-social_icons-items">
+                      <a href="" class="footer-social_icons-link">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="footer-social_icons-items">
+                      <a href="" class="footer-social_icons-link">
+                        <i class="fa-brands fa-pinterest"></i>
+                      </a>
+                    </li>
+                    <li class="footer-social_icons-items">
+                      <a href="" class="footer-social_icons-link">
+                        <i class="fa-brands fa-vimeo-v"></i>
+                      </a>
+                    </li>
+                    <li class="footer-social_icons-items">
+                      <a href="" class="footer-social_icons-link">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col footer-menu">
+              <ul class="footer-menu_list">
+                <li class="col footer-menu_items">
+                  
+                </li>
+              </ul>
+            </div>
+            <div class="col footer-menu">
+              
+            </div>
+            <div class="col footer-menu">
+
+            </div>
+            <div class="col footer-contact">
+
+            </div>
+
+          </div>
+        </div>
       </footer>
 
     </div>

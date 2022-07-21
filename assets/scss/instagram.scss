@@ -1,14 +1,14 @@
 .instagram {
   &-block_text {
-    margin-top: 40px;
+    margin-top: 50px;
     h1 {
       font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
-      font-size: 3rem;
+      font-size: 3.3rem;
       font-weight: 700;
       margin-bottom: 25px;
     }
     p{ 
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
       color: #666;
       font-style: italic;
@@ -19,8 +19,8 @@
   &-img {
     display: flex;
     &_image{
-      height: 230px;
-      width: 230px;
+      height: 250px;
+      width: 250px;
       object-fit: cover; 
       padding: 0 1px;
     }

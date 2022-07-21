@@ -77,7 +77,7 @@ pb-30 {
 }
 .header-logo {
   display: block;
-  margin-right: 300px;
+  margin-right: 360px;
 }
 .header-menu_navigation {
   display: flex;
@@ -104,17 +104,16 @@ pb-30 {
   line-height: 1.5rem;
 }
 .header-icons_wrapper {
-  margin-left: 330px;
+  margin-left: 360px;
   display: flex;
   align-items: center;
 }
-.header-icons_item {
-  padding: 0 20px 0 0;
-  margin: 0 20px 0 0;
+.header-icons_item:not(:last-child) {
+  padding: 0 40px 0 0;
 }
 .header-icons_link {
   color: #222;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 .header-icons_link:hover {
   color: orange;
@@ -270,16 +269,16 @@ pb-30 {
 }
 
 .instagram-block_text {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .instagram-block_text h1 {
   font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
-  font-size: 3rem;
+  font-size: 3.3rem;
   font-weight: 700;
   margin-bottom: 25px;
 }
 .instagram-block_text p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
   color: #666;
   font-style: italic;
@@ -290,10 +289,34 @@ pb-30 {
   display: flex;
 }
 .instagram-img_image {
-  height: 230px;
-  width: 230px;
+  height: 250px;
+  width: 250px;
   object-fit: cover;
   padding: 0 1px;
+}
+
+.footer-block {
+  background: #081a1e;
+}
+.footer-logo img {
+  padding: 80px 0 11px 39px;
+}
+.footer-social_icons {
+  display: flex;
+}
+.footer-social_block {
+  padding: 0 0 0 16px;
+  padding-top: 10px;
+}
+.footer-social_icons ul {
+  padding-left: 0;
+}
+.footer-social_icons li {
+  margin-right: 20px;
+}
+.footer-social_icons li a {
+  font-size: 2rem;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

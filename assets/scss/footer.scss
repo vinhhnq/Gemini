@@ -1,0 +1,38 @@
+.footer {
+  &-block {
+    background: #081a1e;
+  }
+  &-logo {
+    img {
+      padding: 80px 0 11px 39px;
+    }
+  }
+  &-social_icons {
+    display: flex;
+  }
+  &-social {
+    &_block {
+      padding: 0 0 0 16px;
+      padding-top: 10px;
+      
+    }
+    &_icons {
+      ul{
+        padding-left: 0;
+      }
+      li {
+        margin-right: 20px;
+        a {
+          font-size: 2rem;
+          color: #fff;
+
+        }
+      }
+    }
+  }
+  &-menu{
+    &_items {
+      
+    }
+  }
+} 
