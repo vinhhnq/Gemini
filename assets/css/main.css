@@ -318,5 +318,33 @@ pb-30 {
   font-size: 2rem;
   color: #fff;
 }
+.footer-menu, .footer-contact {
+  padding: 80px 0 80px;
+}
+.footer-menu_title, .footer-contact_title {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+}
+.footer-menu_list, .footer-contact_list {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-menu_items, .footer-contact_items {
+  padding-bottom: 8px;
+}
+.footer-menu_items a, .footer-contact_items a {
+  color: #fff;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+.footer-menu_items a:hover, .footer-contact_items a:hover {
+  color: #ff6000;
+  transition: all 0.2s linear;
+}
 
 /*# sourceMappingURL=main.css.map */

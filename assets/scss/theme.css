@@ -273,7 +273,7 @@ pb-30 {
 }
 .instagram-block_text h1 {
   font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   font-weight: 700;
   margin-bottom: 25px;
 }
@@ -293,6 +293,58 @@ pb-30 {
   width: 250px;
   object-fit: cover;
   padding: 0 1px;
+}
+
+.footer-block {
+  background: #081a1e;
+}
+.footer-logo img {
+  padding: 80px 0 11px 39px;
+}
+.footer-social_icons {
+  display: flex;
+}
+.footer-social_block {
+  padding: 0 0 0 16px;
+  padding-top: 10px;
+}
+.footer-social_icons ul {
+  padding-left: 0;
+}
+.footer-social_icons li {
+  margin-right: 20px;
+}
+.footer-social_icons li a {
+  font-size: 2rem;
+  color: #fff;
+}
+.footer-menu, .footer-contact {
+  padding: 80px 0 80px;
+}
+.footer-menu_title, .footer-contact_title {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+}
+.footer-menu_list, .footer-contact_list {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-menu_items, .footer-contact_items {
+  padding-bottom: 8px;
+}
+.footer-menu_items a, .footer-contact_items a {
+  color: #fff;
+  font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+.footer-menu_items a:hover, .footer-contact_items a:hover {
+  color: #ff6000;
+  transition: all 0.2s linear;
 }
 
 /*# sourceMappingURL=theme.css.map */

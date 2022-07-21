@@ -14,7 +14,7 @@
     &_block {
       padding: 0 0 0 16px;
       padding-top: 10px;
-      
+
     }
     &_icons {
       ul{
@@ -30,9 +30,33 @@
       }
     }
   }
-  &-menu{
+
+  &-menu, &-contact {
+    padding: 80px 0 80px;
+    &_title {
+      font-size: 1.4rem;
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 20px;
+      font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+    }
+    &_list {
+      padding-left: 0;
+      list-style: none;
+    }
     &_items {
-      
+      padding-bottom: 8px;
+      a {
+        color: #fff;
+        font-family: Roboto, HelveticaNeue, Helvetica Neue, sans-serif;
+        font-size: 1.3rem;
+        font-weight: 300;
+        line-height: 2rem;
+        &:hover {
+          color: #ff6000;
+          transition: all 0.2s linear;
+        }
+      }
     }
   }
-} 
+}
