@@ -58,6 +58,30 @@ pb-30 {
 .text-left {
   text-align: left !important;
 }
+.text-right {
+  text-align: right !important;
+}
 .distance{
   padding: 70px 0 !important;
+}
+.distance-f {
+  padding-top: 70px !important;
+}
+dl,ol,ul{
+  margin: 0;
+  padding: 0;
+}
+.pdr{
+  padding-right: 61px !important;
+}
+@media (max-width: 767px){
+  .mb-xs-10 {
+    margin-bottom: 10px !important;
+  }
+  .mt-xs-10 {
+    margin-top: 10px !important;
+  }
+  .no-gutter {
+    
+  }
 }

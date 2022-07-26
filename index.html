@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Genmini</title>
+  <title>Gemini</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,38 +15,36 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="./font/fontawesome-free-6.1.1-web 2/css/all.min.css">
   <link rel="stylesheet" href="./font/material-design-iconic-font/css/material-design-iconic-font.min.css">
-  <link rel="stylesheet" type="text/css" href="./slick-1.8.1 /slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="./slick-1.8.1 /slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/scss/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/scss/slick-theme.css"/>
   <link rel="stylesheet" type="text/css" href="./assets/css/main.css"/>
-  <link rel="stylesheet" href="./OwlCarousel2/dist/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="./OwlCarousel2/dist/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.css">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script type="text/javascript" src="./assets/js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="./assets/js/slick.min.js"></script>
+  <script type="text/javascript" src="assets/js/global.js"></script>
   <script type="text/javascript" src="./assets/js/main.js"></script>
-  <script src="./OwlCarousel2/dist/owl.carousel.js"></script>
-  <script src="./OwlCarousel2/dist/owl.carousel.min.js"></script>
+  <script src="assets/js/owl.carousel.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
   <script src="./assets/js/carousel.js"></script>
   <style>
-    .container-ct {
-      padding-left: 15px;
-      padding-right: 15px;
-      margin-right: auto;
-      margin-left: auto;
+    .container {
+      margin: 0 auto;
     }
   </style>
 </head>
 <body>
   <div class="wrapper">
-    <div class="container-ct">
+    <div class="container">
       <!-- header -->
-      <header class="header">
-        <a href="#" class="header-logo">
+      <header class="header row">
+        <a href="#" class="header-logo col-3">
           <img class="header-logo_img" src="./image/logo.png" alt="logo">
         </a>
-        <nav class="row header-menu_navigation">
-          <ul class="col header-menu_items">
+        <nav class="col-6 header-menu_navigation navbar ">
+          <ul class="header-menu_items menu">
             <li class="header-menu_list">
               <a href="#" class="header-menu_link text-transform-uppercase">Home</a>
             </li>
@@ -65,23 +63,27 @@
           </ul>
         </nav>
         <!-- header icon -->
-          <div class="header-icons_wrapper">
-            <div class="header-icons_item">
-              <a href="#" class="header-icons_link">
-                <ion-icon name="search-outline"></ion-icon>
-              </a>
-            </div>
-            <div class="header-icons_item">
-              <a href="#" class="header-icons_link">
-                <ion-icon name="person-outline"></ion-icon>
-              </a>
-            </div>
-            <div class="header-icons_item">
-              <a href="#" class="header-icons_link">
-                <ion-icon name="cart-outline"></ion-icon>
-              </a>
-            </div>
+        <div class="col-3 header-icons_wrapper">
+          <div class="header-icons_item">
+            <a href="#" class="header-icons_link">
+              <ion-icon name="search-outline"></ion-icon>
+            </a>
           </div>
+          <div class="header-icons_item">
+            <a href="#" class="header-icons_link">
+              <ion-icon name="person-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="header-icons_item">
+            <a href="#" class="header-icons_link">
+              <ion-icon name="cart-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <div id="sticky-header" class="header-sticky">
+
+        </div>
       </header>
 
       <!-- banner -->
@@ -89,7 +91,7 @@
         <div class="row spacing-10">
           <div class="banner-top full-width">
             <div class="row">
-              <div class="col-6 spacing-10 banner-top_item">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-10 spacing-10 banner-top_item">
                 <a href="" class="banner-top_img-link h-100">
                   <img class="banner-top_img img-fluid h-100" src="./image/banner-top1.png" alt="banner-top">
                   <div class="banner-top_item--content">
@@ -97,7 +99,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-6 spacing-10 banner-top_item">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-10 spacing-10 banner-top_item">
                 <a href="" class="banner-top_img-link h-100">
                   <img class="banner-top_img img-fluid h-100" src="./image/banner-top2.png" alt="banner-top">
                   <div class="banner-top_item--content">
@@ -885,14 +887,14 @@
       </section>
 
       <!-- footer -->
-      <footer class="footer distance">
+      <footer class="footer distance-f">
         <div class="footer-block">
           <div class="row">
             <div class="col footer-logo">
               <img src="./image/footer-logo.png" alt="" class="footer-logo_image">
               <div class="footer-social">
                 <div class="footer-social_block">
-                  <ul class="footer-social_icons">
+                  <ul class="footer-social_icons d-flex">
                     <li class="footer-social_icons-items">
                       <a href="" class="footer-social_icons-link">
                         <i class="fa-brands fa-facebook-f"></i>
@@ -984,9 +986,46 @@
             </div>
             <div class="col footer-contact">
               <div class="footer-menu_title">CONTACT US</div>
-              .
-            </div>
+              <div class="footer-contact_content">
+                <div class="footer-contact_block d-flex">
+                  <div class="footer-icon-contact">
+                    <ion-icon name="location-outline"></ion-icon>
+                  </div>
+                  <div class="footer-address-content pdr">
+                    <span class="footer-content-address">1588 South Coast Dr Costa Mesa, CA 92626</span>
+                  </div>
+                </div>
+                <div class="footer-contact_block d-flex">
+                  <div class="footer-icon-contact">
+                    <ion-icon name="call-outline"></ion-icon>
+                  </div>
+                  <div class="footer-address-content">
+                    <span class="footer-content-address">0123-456-78910</span>
+                  </div>
+                </div>
+                <div class="footer-contact_block d-flex">
+                  <div class="footer-icon-contact">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </div>
+                  <div class="footer-address-content">
+                    <span class="footer-content-address">support@domain.com</span>
+                  </div>
+                </div>
+              </div>
 
+            </div>
+          </div>
+        </div>
+        <div class="copyright-block">
+          <div class="row">
+            <div class="col-6 text-left">
+              <div class="copyright-title">Copyright © 2018 design by Vinovathemes. All rights reserved</div>
+            </div>
+            <div class="col-6 text-right">
+              <div class="payment">
+                <img src="https://cdn.shopify.com/s/files/1/0159/4821/8416/files/8_300x.png?v=1556944051" alt="img">
+              </div>
+            </div>
           </div>
         </div>
       </footer>
