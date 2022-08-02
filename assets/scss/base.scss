@@ -10,7 +10,10 @@
 body {
   overflow-x: hidden;
   font-family: Poppins,HelveticaNeue,Helvetica Neue,sans-serif, Roboto, sans-serif;
+}
 
+.wrapper {
+  overflow-x: hidden;
 }
 html {
   font-size: 62.5%;
@@ -52,7 +55,8 @@ a {
 .row-mg {
   margin: 0 -20px !important;
 }
-pb-30 {
+
+.pb-30 {
   padding-bottom: 30px !important;
 }
 .text-left {
@@ -74,14 +78,16 @@ dl,ol,ul{
 .pdr{
   padding-right: 61px !important;
 }
-@media (max-width: 767px){
-  .mb-xs-10 {
-    margin-bottom: 10px !important;
-  }
-  .mt-xs-10 {
-    margin-top: 10px !important;
-  }
-  .no-gutter {
-    
-  }
+.row-h {
+  padding-right: 0;
 }
+.spacing-0 {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.container-1 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+

@@ -2,14 +2,15 @@
   &-block {
     background: #081a1e;
   }
+  &-contact {
+    margin-bottom: 40px;
+  }
   &-logo {
     img {
       padding: 80px 0 11px 39px;
     }
   }
-  //&-social_icons {
-  //  display: flex;
-  //}
+
   &-social {
     &_block {
       padding: 10px 0 0 37px;
@@ -71,6 +72,7 @@
     vertical-align: sub;
 
   }
+
   &-address-content {
     color: white;
     font-size: 1.3rem;

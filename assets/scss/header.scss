@@ -1,52 +1,96 @@
 .header {
-  padding: 35px 0 0;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  &-logo {
-    display: block;
+  .site-header {
+    position: relative;
+    padding: 35px 0 0;
+    display: flex;
+    align-items: center;
+    &-logo_link {
+      display: block;
 
-  }
-  &-menu_navigation {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  &-menu_list {
-    display: flex;
-    align-items: center;
-  }
-  &-menu_items a {
-    margin: 6px 16px;
-    color: #222;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-  }
-  &-icons_wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
-  &-icons_item:not(:last-child) {
-    margin: 0 20px 0 0;
-    padding: 0 20px 0 0;
-  }
-  &-icons_link {
-    color: #222;
-    font-size: 3rem;
-    &:hover {
-      color: orange;
     }
+    &-menu_navigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &-menu_list {
+      display: flex;
+      align-items: center;
+    }
+    &-menu_items a {
+      margin: 6px 16px;
+      color: #222;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+    }
+    &-icons_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+    &-icons_item:not(:last-child) {
+      margin: 0 20px 0 0;
+      padding: 0 20px 0 0;
+    }
+    &-icons_link {
+      color: #222;
+      font-size: 3rem;
+      &:hover {
+        color: orange;
+      }
+    }
+  }
+
+}
+.header-mobile {
+  background-image: linear-gradient(0, #fe6433,#f6422d);
+  padding: 20px;
+  .mobile-menu_item {
+    color: #fff;
+    font-size: 2.4rem;
+  }
+  .header-mobile_search {
+    margin-top: 20px;
+    .mobile-search {
+      position: relative;
+      .search-header_input {
+        width: 100%;
+        border: none;
+        height: 34px;
+        font-size: 1.2rem;
+        padding: 0 35px 0 10px;
+        line-height: 1.2rem;
+        border-radius: 17px;
+      }
+    }
+    .mobile-search_btn {
+      border: none;
+      background-color: transparent;
+      position: absolute;
+      top: 5px;
+      right: 7px;
+      color: #ff6000;
+      font-size: 2.1rem;
+      cursor: pointer;
+    }
+  }
+  .mobile-icons {
+    gap: 25px;
+    font-size: 3rem;
+    .mobile-icons_link {
+      color: white;
+    }
+
   }
 
 }

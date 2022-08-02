@@ -1,0 +1,28 @@
+@media (max-width: 1000px){
+  .mb-xs-10 {
+    margin-bottom: 10px !important;
+  }
+  .mt-xs-10 {
+    margin-top: 10px !important;
+  }
+  .text-xs-center {
+    text-align: center !important;
+  }
+  .mb-xs-30 {
+    margin-bottom: 30px !important;
+  }
+  .pb-xs-20 {
+    padding-bottom: 20px !important;
+  }
+}
+
+@media(max-width: 990px){
+  .block-footer {
+    padding: 40px 15px 0 35px;
+  }
+  .instagram-img_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

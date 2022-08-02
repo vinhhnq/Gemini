@@ -30,780 +30,829 @@
   <script src="assets/js/owl.carousel.min.js"></script>
   <script src="./assets/js/carousel.js"></script>
   <style>
-    .container {
-      margin: 0 auto;
+    .container-ct {
+      margin-right: 15px;
+      margin-left: 15px;
     }
   </style>
 </head>
 <body>
   <div class="wrapper">
-    <div class="container">
       <!-- header -->
-      <header class="header row">
-        <a href="#" class="header-logo col-3">
-          <img class="header-logo_img" src="./image/logo.png" alt="logo">
-        </a>
-        <nav class="col-6 header-menu_navigation navbar ">
-          <ul class="header-menu_items menu">
-            <li class="header-menu_list">
-              <a href="#" class="header-menu_link text-transform-uppercase">Home</a>
-            </li>
-            <li class="header-menu_list">
-              <a href="#" class="header-menu_link text-transform-uppercase">Pages</a>
-            </li>
-            <li class="header-menu_list">
-              <a href="#" class="header-menu_link text-transform-uppercase">Women</a>
-            </li>
-            <li class="header-menu_list">
-              <a href="#" class="header-menu_link text-transform-uppercase">Men</a>
-            </li>
-            <li class="header-menu_list">
-              <a href="#" class="header-menu_link text-transform-uppercase">Blog</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- header icon -->
-        <div class="col-3 header-icons_wrapper">
-          <div class="header-icons_item">
-            <a href="#" class="header-icons_link">
-              <ion-icon name="search-outline"></ion-icon>
+    <header class="header">
+      <div class="container-ct">
+        <div class="row site-header d-md-flex d-none d-sm-flex d-sm-none">
+          <div class="site-header_logo col-lg-3 col-md-2 text-left">
+            <a href="#" class="site-header-logo_link">
+              <img class="site-header-logo_img img-fluid" src="https://cdn.shopify.com/s/files/1/0159/4821/8416/files/logo3_300x.png?v=1557397924" alt="logo">
             </a>
           </div>
-          <div class="header-icons_item">
-            <a href="#" class="header-icons_link">
-              <ion-icon name="person-outline"></ion-icon>
-            </a>
-          </div>
-          <div class="header-icons_item">
-            <a href="#" class="header-icons_link">
-              <ion-icon name="cart-outline"></ion-icon>
-            </a>
+          <nav class="site-header-menu_navigation navbar col-lg-6 col-md-7">
+            <ul class="site-header-menu_items menu">
+              <li class="site-header-menu_list">
+                <a href="#" class="site-header-menu_link text-transform-uppercase">Home</a>
+              </li>
+              <li class="site-header-menu_list">
+                <a href="#" class="site-header-menu_link text-transform-uppercase">Pages</a>
+              </li>
+              <li class="site-header-menu_list">
+                <a href="#" class="site-header-menu_link text-transform-uppercase">Women</a>
+              </li>
+              <li class="site-header-menu_list">
+                <a href="#" class="site-header-menu_link text-transform-uppercase">Men</a>
+              </li>
+              <li class="site-header-menu_list">
+                <a href="#" class="site-header-menu_link text-transform-uppercase">Blog</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- header icon -->
+          <div class="col-lg-3 col-md-3 site-header-icons_wrapper">
+            <div class="site-header-icons_item">
+              <a href="#" class="site-header-icons_link">
+                <ion-icon name="search-outline"></ion-icon>
+              </a>
+            </div>
+            <div class="site-header-icons_item">
+              <a href="#" class="site-header-icons_link">
+                <ion-icon name="person-outline"></ion-icon>
+              </a>
+            </div>
+            <div class="site-header-icons_item">
+              <a href="#" class="site-header-icons_link">
+                <ion-icon name="cart-outline"></ion-icon>
+              </a>
+            </div>
           </div>
         </div>
-
-        <div id="sticky-header" class="header-sticky">
-
+      </div>
+      <div class="header-mobile d-md-none">
+        <div class="row">
+          <div class="col-3">
+            <div class="mobile-menu_item">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="mobile-logo text-center">
+              <a href="" class="mobile-logo_link">
+                <img src="./image/logo.png" alt="" class="mobile-logo_img img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="mobile-icons d-flex justify-content-center">
+              <div class="mobile-icons_item">
+                <a href="#" class="mobile-icons_link">
+                  <ion-icon name="person-outline"></ion-icon>
+                </a>
+              </div>
+              <div class="mobile-icons_item">
+                <a href="#" class="mobile-icons_link">
+                  <ion-icon name="cart-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </header>
+        <div class="header-mobile_search">
+          <form class="mobile-search" method="get" role="search">
+            <input placeholder="Enter your keyword..." type="Enter your keyword..." class="search-header_input" aria-label="Enter your keyword...">
+            <button class="mobile-search_btn" type="submit">
+              <span class="mobile-search_icon">
+                <ion-icon name="search-outline"></ion-icon>
+              </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
 
-      <!-- banner -->
-      <section class ="banner">
-        <div class="row spacing-10">
-          <div class="banner-top full-width">
-            <div class="row">
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-10 spacing-10 banner-top_item">
-                <a href="" class="banner-top_img-link h-100">
-                  <img class="banner-top_img img-fluid h-100" src="./image/banner-top1.png" alt="banner-top">
+    <!-- banner -->
+      <div class="container-ct">
+        <section class ="banner">
+          <div class="row spacing-10">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-10">
+              <div class="banner-top_item">
+                <a href="" class="banner-top_img-link">
+                  <img class="banner-top_img img-fluid w-100" src="./image/banner-top1.png" alt="banner-top">
                   <div class="banner-top_item--content">
                     <h1 class="banner-top_item--title text-transform-uppercase">Hoodie collections</h1>
                   </div>
                 </a>
               </div>
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-10 spacing-10 banner-top_item">
-                <a href="" class="banner-top_img-link h-100">
-                  <img class="banner-top_img img-fluid h-100" src="./image/banner-top2.png" alt="banner-top">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-10">
+              <div class="banner-top_item">
+                <a href="" class="banner-top_img-link">
+                  <img class="banner-top_img img-fluid w-100 h-100" src="./image/banner-top2.png" alt="banner-top">
                   <div class="banner-top_item--content">
                     <h1 class="banner-top_item--title text-transform-uppercase">Hoodie collections</h1>
                   </div>
                 </a>
               </div>
             </div>
-         </div>
-        </div>
-        <div class="row spacing-10">
-          <div class="banner-gallery full-width">
-            <div class="row banner-gallery_img--item">
-              <div class="col spacing-10 mt-10 banner-gallery_item">
-                <a href="" class="banner-gallery_link h-100">
-                  <img src="./image/banner-group1.png" alt="" class="banner-top_img img-fluid h-100">
+          </div>
+          <div class="row spacing-10">
+            <div class="col-lg-3 col-lg-3 col-sm-6 col-xs-12 mt-10 ">
+              <div class="banner-gallery_item">
+                <a href="" class="banner-gallery_link">
+                  <img src="./image/banner-group1.png" alt="" class="banner-top_img img-fluid w-100 h-100">
                 </a>
               </div>
-              <div class="col spacing-10 mt-10 banner-gallery_item">
-                <a href="" class="banner-gallery_link h-100">
-                  <img src="./image/banner-group2.png" alt="" class="banner-gallery_img img-fluid h-100">
+            </div>
+            <div class="col-lg-3 col-lg-3 col-sm-6 col-xs-12 mt-10">
+              <div class="banner-gallery_item">
+                <a href="" class="banner-gallery_link">
+                  <img src="./image/banner-group2.png" alt="" class="banner-top_img img-fluid w-100 h-100">
                 </a>
               </div>
-              <div class="col spacing-10 mt-10 banner-gallery_item">
-                <a href="" class="banner-gallery_link h-100">
-                  <img src="./image/banner-group3.png" alt="" class="banner-gallery_img img-fluid h-100">
+            </div>
+            <div class="col-lg-3 col-lg-3 col-sm-6 col-xs-12 mt-10">
+              <div class="banner-gallery_item">
+                <a href="" class="banner-gallery_link">
+                  <img src="./image/banner-group3.png" alt="" class="banner-top_img img-fluid w-100 h-100">
                 </a>
               </div>
-              <div class="col spacing-10 mt-10 banner-gallery_item">
-                <a href="" class="banner-gallery_link h-100">
-                  <img src="./image/banner-group4.png" alt="" class="banner-gallery_img img-fluid">
+            </div>
+            <div class="col-lg-3 col-lg-3 col-sm-6 col-xs-12 mt-10">
+              <div class="banner-gallery_item">
+                <a href="" class="banner-gallery_link">
+                  <img src="./image/banner-group4.png" alt="" class="banner-top_img img-fluid w-100 h-100">
                 </a>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row row-mg">
-          <div class="banner-title_block">
-            <span class="banner-title_block--text">T-Shirt</span>
-          </div>
-          <div class="slickclass banner_products">
-            <div class="col col-prd banner_products--items">
-              <a href="#" class="banner_products--link">
-                <img src="./image/shirt-product1.png" alt="" class="banner_products--image img-prd">
-                <!-- info -->
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$100.00</span>
-                  </div>
-                </div>
-              </a>
+          <div class="row row-mg">
+            <div class="banner-title_block">
+              <span class="banner-title_block--text">T-Shirt</span>
             </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/shirt-product2.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
+            <div class="slickclass banner_products">
+              <div class="col col-prd banner_products--items">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/shirt-product1.png" alt="" class="banner_products--image img-prd">
+                  <!-- info -->
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$100.00</span>
+                    </div>
                   </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$100.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/shirt-product3.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$100.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/shirt-product4.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$100.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/shirt-product5.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$100.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/shirt-product1.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$100.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/shirt-product2.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$100.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/shirt-product3.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$100.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/shirt-product4.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$100.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/shirt-product5.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$100.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-<!--        banner 2-->
-        <div class="row spacing-10">
-          <div class="banner-gallery full-width">
-            <div class="row">
-              <div class="col-6 spacing-10 banner-gallery_item">
-                <a href="" class="banner-top_img-link h-100">
-                  <img class="banner-top_img img-fluid h-100" src="./image/banner1.png" alt="banner-top">
                 </a>
               </div>
-              <div class="col-6 spacing-10 banner-top_item">
-                <a href="" class="banner-top_img-link h-100">
-                  <img class="banner-top_img img-fluid h-100" src="./image/banner2.png" alt="banner-top">
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/shirt-product2.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$100.00</span>
+                    </div>
+                  </div>
                 </a>
               </div>
-            </div>
-         </div>
-        </div>
-        <div class="row row-mg">
-          <div class="banner-title_block">
-            <span class="banner-title_block--text">Crop top</span>
-          </div>
-          <div class="slickclass banner_products">
-            <div class="col col-prd banner_products--items">
-              <a href="#" class="banner_products--link">
-                <img src="./image/crt1.png" alt="" class="banner_products--image img-prd">
-                <!-- info -->
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/shirt-product3.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$100.00</span>
+                    </div>
                   </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$250.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/crt2.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$250.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/crt3.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$250.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/crt4.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$250.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/crt5.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$250.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/crt1.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$250.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/crt2.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$250.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/crt3.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$250.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/crt4.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$250.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/crt5.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$250.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row spacing-10">
-          <div class="banner-gallery full-width">
-            <div class="row">
-              <div class="col-6 spacing-10 banner-gallery_item">
-                <a href="" class="banner-top_img-link h-100">
-                  <img class="banner-top_img img-fluid h-100" src="./image/banner3-1.png" alt="banner">
                 </a>
               </div>
-              <div class="col-6 spacing-10 banner-top_item">
-                <a href="" class="banner-top_img-link h-100">
-                  <img class="banner-top_img img-fluid h-100" src="./image/banner3-2.png" alt="banner">
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/shirt-product4.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$100.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/shirt-product5.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$100.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/shirt-product1.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$100.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/shirt-product2.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$100.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/shirt-product3.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--
+                    rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$100.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/shirt-product4.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$100.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/shirt-product5.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$100.00</span>
+                    </div>
+                  </div>
                 </a>
               </div>
             </div>
           </div>
-        </div>
+          <!--        banner 2-->
+          <div class="row spacing-10">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-10">
+              <div class="banner-top_item">
+                <a href="" class="banner-top_img-link">
+                  <img class="banner-top_img img-fluid w-100 h-100" src="./image/banner1.png" alt="banner-top">
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-10">
+              <div class="banner-top_item">
+                <a href="" class="banner-top_img-link">
+                  <img class="banner-top_img img-fluid w-100 h-100" src="./image/banner2.png" alt="banner-top">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row row-mg">
+            <div class="banner-title_block">
+              <span class="banner-title_block--text">Crop top</span>
+            </div>
+            <div class="slickclass banner_products">
+              <div class="col col-sm-12 col-prd banner_products--items">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/crt1.png" alt="" class="banner_products--image img-prd">
+                  <!-- info -->
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$250.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-sm-12 col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/crt2.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$250.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-sm-12 col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/crt3.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$250.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-sm-12 col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/crt4.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$250.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-sm-12 col-xs-12 col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/crt5.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$250.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-sm-12 col-xs-12 col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/crt1.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$250.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-sm-12 col-xs-12 col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/crt2.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$250.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-sm-12 col-xs-12 col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/crt3.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$250.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-sm-12 col-xs-12 col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/crt4.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$250.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-sm-12 col-xs-12 col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/crt5.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$250.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row spacing-10">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-10">
+              <div class="banner-top_item">
+                <a href="" class="banner-top_img-link">
+                  <img class="banner-top_img img-fluid w-100 h-100" src="./image/banner3-1.png" alt="banner-top">
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-10">
+              <div class="banner-top_item">
+                <a href="" class="banner-top_img-link">
+                  <img class="banner-top_img img-fluid w-100 h-100" src="./image/banner3-2.png" alt="banner-top">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row row-mg">
+            <div class="banner-title_block">
+              <span class="banner-title_block--text">Hoodies</span>
+            </div>
+            <div class="slickclass banner_products">
+              <div class="col col-prd banner_products--items">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/hd1.png" alt="" class="banner_products--image img-prd">
+                  <!-- info -->
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$450.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/hd2.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$450.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/hd3.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$450.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/hd4.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem, ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$450.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/hd5.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$450.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/hd1.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$450.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/hd2.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$450.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/hd3.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$450.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/hd4.png" a65lt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                      <i class="banner_products-info--star fa-regular fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$450.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col col-prd banner_products--items slick-slide">
+                <a href="#" class="banner_products--link">
+                  <img src="./image/hd5.png" alt="" class="banner_products--image img-prd">
+                  <div class="banner_products-info">
+                    <div class="banner_products-info--name">
+                      <a href="">Lorem ipsum dolor sit amet</a>
+                    </div>
+                    <div class="banner_products-info--rating">
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                      <i class="banner_products-info--star fa-solid fa-star"></i>
+                    </div>
+                    <div class="banner_products-info--price">
+                      <span>$450.00</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
 
-        <div class="row row-mg">
-          <div class="banner-title_block">
-            <span class="banner-title_block--text">Hoodies</span>
-          </div>
-          <div class="slickclass banner_products">
-            <div class="col col-prd banner_products--items">
-              <a href="#" class="banner_products--link">
-                <img src="./image/hd1.png" alt="" class="banner_products--image img-prd">
-                <!-- info -->
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$450.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/hd2.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$450.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/hd3.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$450.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/hd4.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem, ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$450.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/hd5.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$450.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/hd1.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$450.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/hd2.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$450.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/hd3.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$450.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/hd4.png" a65lt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                    <i class="banner_products-info--star fa-regular fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$450.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col col-prd banner_products--items slick-slide">
-              <a href="#" class="banner_products--link">
-                <img src="./image/hd5.png" alt="" class="banner_products--image img-prd">
-                <div class="banner_products-info">
-                  <div class="banner_products-info--name">
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                  </div>
-                  <div class="banner_products-info--rating">
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                    <i class="banner_products-info--star fa-solid fa-star"></i>
-                  </div>
-                  <div class="banner_products-info--price">
-                    <span>$450.00</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- testimonial -->
+    <!-- testimonial -->
+    <div class="container-ct">
       <section class="testimonial distance">
         <div class="testimonial-block">
           <div class="testimonial-title-block text-center">
             <span class="testimonial-title-block_text">Testimonial</span>
             <span class="testimonial-title-block_sub">WHAT'S HAPPY CLIENT SAY</span>
           </div>
-          <div class="testimonial-slider owl-carousel owl-theme">
+          <div class="owl-carousel owl-theme">
             <div class="item">
               <div class="testimonial-items">
                 <div class="testimonial-items_name">CEO-Vinova</div>
@@ -863,38 +912,52 @@
           </div>
         </div>
       </section>
+    </div>
 
-      <!-- instagram -->
+    <!-- instagram -->
+    <div class="container-ct">
       <section class="row instagram distance">
-        <div class="col-4 instagram-block_text text-left">
+        <div class="col-lg-4 col-md-12 instagram-block_text text-left pb-xs-20">
           <h1>Instagram</h1>
           <p>Meet your fellow Humans! Show us your DBH style on Twitter, Instagram or Facebook and tag @Gemini for a chance to win free tees and be featured on our site!</p>
         </div>
-        <div class="col-8 instagram-img">
-          <a href="" class="instagram-img_link">
-            <img src="./image/ins1.png" alt="" class="instagram-img_image img-fluid">
-          </a>
-          <a href="" class="instagram-img_link">
-            <img src="./image/ins2.png" alt="" class="instagram-img_image img-fluid">
-          </a>
-          <a href="" class="instagram-img_link">
-            <img src="./image/ins3.png" alt="" class="instagram-img_image img-fluid">
-          </a>
-          <a href="" class="instagram-img_link">
-            <img src="./image/ins4.png" alt="" class="instagram-img_image img-fluid">
-          </a>
+
+        <div class="col-lg-8 col-md-12">
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-md-6 col-xs-12 col-sm-12 justify-content-center instagram-img mb-xs-10">
+              <a href="" class="instagram-img_link">
+                <img src="./image/ins1.png" alt="" class="instagram-img_image img-fluid w-100 h-100">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-md-6 col-xs-12 col-sm-12 justify-content-center instagram-img mb-xs-10">
+              <a href="" class="instagram-img_link">
+                <img src="./image/ins2.png" alt="" class="instagram-img_image img-fluid w-100 h-100">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-md-6 col-xs-12 col-sm-12 justify-content-center instagram-img mb-xs-10">
+              <a href="" class="instagram-img_link">
+                <img src="./image/ins3.png" alt="" class="instagram-img_image img-fluid h-100 w-100">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-md-6 col-xs-12 col-sm-12 justify-content-center instagram-img mb-xs-10">
+              <a href="" class="instagram-img_link">
+                <img src="./image/ins4.png" alt="" class="instagram-img_image img-fluid h-100 w-100">
+              </a>
+            </div>
+          </div>
         </div>
       </section>
-
-      <!-- footer -->
+    </div>
+    <!-- footer -->
+    <div class="container-ct">
       <footer class="footer distance-f">
         <div class="footer-block">
-          <div class="row">
-            <div class="col footer-logo">
+          <div class="row spacing-0">
+            <div class="col-lg-3 col-md-12 col-xs-12 block-footer footer-block_1 footer-logo">
               <img src="./image/footer-logo.png" alt="" class="footer-logo_image">
               <div class="footer-social">
                 <div class="footer-social_block">
-                  <ul class="footer-social_icons d-flex">
+                  <ul class="footer-social_icons p-0 d-flex">
                     <li class="footer-social_icons-items">
                       <a href="" class="footer-social_icons-link">
                         <i class="fa-brands fa-facebook-f"></i>
@@ -924,67 +987,67 @@
                 </div>
               </div>
             </div>
-            <div class="col footer-menu">
+            <div class="col-lg-2 col-md-4 col-xs-12 block-footer footer-block_2 footer-menu">
               <div class="footer-menu_title">CUSTOMER SERVICE</div>
               <ul class="footer-menu_list">
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Contact us</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Help and advice</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Delivery</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Term and conditions</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Refund policy</a>
                 </li>
               </ul>
             </div>
-            <div class="col footer-menu">
+            <div class="col-lg-3 col-md-4 col-xs-12 block-footer footer-block_3 footer-menu">
               <div class="footer-menu_title">OUR GUARANTEES</div>
               <ul class="footer-menu_list">
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Authenticity 100% guaranteed</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Money Back Guarantee</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Protection for Buyers and Sellers</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Secure Payment</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Certificate of Authenticity</a>
                 </li>
               </ul>
             </div>
-            <div class="col footer-menu">
+            <div class="col-lg-2 col-md-4 col-xs-12 block-footer footer-block_4 footer-menu">
               <div class="footer-menu_title">ABOUT US</div>
               <ul class="footer-menu_list">
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Who are we ?</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Delivery and return</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Size guide</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Terms & Conditions</a>
                 </li>
-                <li class="col footer-menu_items">
+                <li class="footer-menu_items">
                   <a href="#">Legal Mentions</a>
                 </li>
               </ul>
             </div>
-            <div class="col footer-contact">
+            <div class="col-lg-2 col-md-12 col-xs-12 block-footer footer-block_5 footer-contact">
               <div class="footer-menu_title">CONTACT US</div>
               <div class="footer-contact_content">
                 <div class="footer-contact_block d-flex">
@@ -1012,16 +1075,17 @@
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
         <div class="copyright-block">
           <div class="row">
-            <div class="col-6 text-left">
-              <div class="copyright-title">Copyright © 2018 design by Vinovathemes. All rights reserved</div>
+            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-left text-xs-center mb-xs-30">
+              <div class="copyright-text">
+                <div class="copyright-title">Copyright © 2018 design by Vinovathemes. All rights reserved</div>
+              </div>
             </div>
-            <div class="col-6 text-right">
+            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-right text-xs-center">
               <div class="payment">
                 <img src="https://cdn.shopify.com/s/files/1/0159/4821/8416/files/8_300x.png?v=1556944051" alt="img">
               </div>
@@ -1029,7 +1093,6 @@
           </div>
         </div>
       </footer>
-
     </div>
   </div>
 </body>
