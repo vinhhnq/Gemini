@@ -1,9 +1,9 @@
 .header {
   .site-header {
     position: relative;
-    padding: 35px 0 0;
     display: flex;
     align-items: center;
+    height: 112px;
     &-logo_link {
       display: block;
 
@@ -43,7 +43,7 @@
       padding: 0 20px 0 0;
     }
     &-icons_link {
-      color: #222;
+      color: #6C6C6C;
       font-size: 3rem;
       &:hover {
         color: orange;

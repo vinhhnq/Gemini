@@ -106,18 +106,11 @@ dl, ol, ul {
   padding-right: 0 !important;
 }
 
-.row {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  margin-right: -15px !important;
-  margin-left: -15px !important;
-}
-
 .header .site-header {
   position: relative;
-  padding: 35px 0 0;
   display: flex;
   align-items: center;
+  height: 112px;
 }
 .header .site-header-logo_link {
   display: block;
@@ -157,7 +150,7 @@ dl, ol, ul {
   padding: 0 20px 0 0;
 }
 .header .site-header-icons_link {
-  color: #222;
+  color: #6C6C6C;
   font-size: 3rem;
 }
 .header .site-header-icons_link:hover {
@@ -205,10 +198,6 @@ dl, ol, ul {
   color: white;
 }
 
-.banner {
-  position: relative;
-  padding-top: 35px;
-}
 .banner-wrap {
   display: block;
 }
@@ -247,7 +236,8 @@ dl, ol, ul {
 }
 .banner-title_block {
   text-align: center;
-  padding: 40px 0 30px 0;
+  justify-content: center;
+  padding: 70px 0 40px 0;
 }
 .banner-title_block--text {
   font-size: 3rem;
