@@ -106,6 +106,13 @@ dl, ol, ul {
   padding-right: 0 !important;
 }
 
+.row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+}
+
 .header .site-header {
   position: relative;
   padding: 35px 0 0;
@@ -240,7 +247,6 @@ dl, ol, ul {
 }
 .banner-title_block {
   text-align: center;
-  justify-content: center;
   padding: 40px 0 30px 0;
 }
 .banner-title_block--text {
