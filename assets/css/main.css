@@ -504,7 +504,7 @@ dl, ol, ul {
 }
 
 .header-mobile {
-  background-image: linear-gradient(0, #fe6433, #f6422d);
+  background: #081a1e;
   padding: 20px;
 }
 .header-mobile .mobile-menu_item {
