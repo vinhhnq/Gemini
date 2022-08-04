@@ -8,7 +8,6 @@
 }
 
 body {
-  overflow-x: hidden;
   font-family: Poppins,HelveticaNeue,Helvetica Neue,sans-serif, Roboto, sans-serif;
 }
 
@@ -21,10 +20,6 @@ html {
 }
 a {
   text-decoration: none;
-}
-.wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .mt-10 {
@@ -89,10 +84,321 @@ dl,ol,ul{
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-// .row {
-//   display: flex !important;
-//   flex-wrap: wrap !important;
-//   margin-right: -15px !important;
-//   margin-left: -15px !important;
-// }
+.row.spacing-0 {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.row.spacing-0 > [class*=col-], .row.spacing-0 > [class*=" col-"], .row.spacing-0 > [class*=col], .row.spacing-0 .p_item {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row.spacing-5 {
+  margin-right: -2.5px;
+  margin-left: -2.5px;
+}
+.row.spacing-5 > [class*=col-], .row.spacing-5 > [class*=" col-"], .row.spacing-5 > [class*=col], .row.spacing-5 .p_item {
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+.row.spacing-10 {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.row.spacing-10 > [class*=col-], .row.spacing-10 > [class*=" col-"], .row.spacing-10 > [class*=col], .row.spacing-10 .p_item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.row.spacing-15 {
+  margin-right: -7.5px;
+  margin-left: -7.5px;
+}
+.row.spacing-15 > [class*=col-], .row.spacing-15 > [class*=" col-"], .row.spacing-15 > [class*=col], .row.spacing-15 .p_item {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+.row.spacing-20 {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.row.spacing-20 > [class*=col-], .row.spacing-20 > [class*=" col-"], .row.spacing-20 > [class*=col], .row.spacing-20 .p_item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row.spacing-25 {
+  margin-right: -12.5px;
+  margin-left: -12.5px;
+}
+.row.spacing-25 > [class*=col-], .row.spacing-25 > [class*=" col-"], .row.spacing-25 > [class*=col], .row.spacing-25 .p_item {
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+}
+
+.row.spacing-30 {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row.spacing-30 > [class*=col-], .row.spacing-30 > [class*=" col-"], .row.spacing-30 > [class*=col], .row.spacing-30 .p_item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row.spacing-35 {
+  margin-right: -17.5px;
+  margin-left: -17.5px;
+}
+.row.spacing-35 > [class*=col-], .row.spacing-35 > [class*=" col-"], .row.spacing-35 > [class*=col], .row.spacing-35 .p_item {
+  padding-left: 17.5px;
+  padding-right: 17.5px;
+}
+
+.row.spacing-40 {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+.row.spacing-40 > [class*=col-], .row.spacing-40 > [class*=" col-"], .row.spacing-40 > [class*=col], .row.spacing-40 .p_item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row.spacing-45 {
+  margin-right: -22.5px;
+  margin-left: -22.5px;
+}
+.row.spacing-45 > [class*=col-], .row.spacing-45 > [class*=" col-"], .row.spacing-45 > [class*=col], .row.spacing-45 .p_item {
+  padding-left: 22.5px;
+  padding-right: 22.5px;
+}
+
+.row.spacing-50 {
+  margin-right: -25px;
+  margin-left: -25px;
+}
+.row.spacing-50 > [class*=col-], .row.spacing-50 > [class*=" col-"], .row.spacing-50 > [class*=col], .row.spacing-50 .p_item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row.spacing-55 {
+  margin-right: -27.5px;
+  margin-left: -27.5px;
+}
+.row.spacing-55 > [class*=col-], .row.spacing-55 > [class*=" col-"], .row.spacing-55 > [class*=col], .row.spacing-55 .p_item {
+  padding-left: 27.5px;
+  padding-right: 27.5px;
+}
+
+.row.spacing-60 {
+  margin-right: -30px;
+  margin-left: -30px;
+}
+.row.spacing-60 > [class*=col-], .row.spacing-60 > [class*=" col-"], .row.spacing-60 > [class*=col], .row.spacing-60 .p_item {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.row.spacing-65 {
+  margin-right: -32.5px;
+  margin-left: -32.5px;
+}
+.row.spacing-65 > [class*=col-], .row.spacing-65 > [class*=" col-"], .row.spacing-65 > [class*=col], .row.spacing-65 .p_item {
+  padding-left: 32.5px;
+  padding-right: 32.5px;
+}
+
+.row.spacing-70 {
+  margin-right: -35px;
+  margin-left: -35px;
+}
+.row.spacing-70 > [class*=col-], .row.spacing-70 > [class*=" col-"], .row.spacing-70 > [class*=col], .row.spacing-70 .p_item {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.row.spacing-75 {
+  margin-right: -37.5px;
+  margin-left: -37.5px;
+}
+.row.spacing-75 > [class*=col-], .row.spacing-75 > [class*=" col-"], .row.spacing-75 > [class*=col], .row.spacing-75 .p_item {
+  padding-left: 37.5px;
+  padding-right: 37.5px;
+}
+
+.row.spacing-80 {
+  margin-right: -40px;
+  margin-left: -40px;
+}
+.row.spacing-80 > [class*=col-], .row.spacing-80 > [class*=" col-"], .row.spacing-80 > [class*=col], .row.spacing-80 .p_item {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.row.spacing-85 {
+  margin-right: -42.5px;
+  margin-left: -42.5px;
+}
+.row.spacing-85 > [class*=col-], .row.spacing-85 > [class*=" col-"], .row.spacing-85 > [class*=col], .row.spacing-85 .p_item {
+  padding-left: 42.5px;
+  padding-right: 42.5px;
+}
+
+.row.spacing-90 {
+  margin-right: -45px;
+  margin-left: -45px;
+}
+.row.spacing-90 > [class*=col-], .row.spacing-90 > [class*=" col-"], .row.spacing-90 > [class*=col], .row.spacing-90 .p_item {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.row.spacing-95 {
+  margin-right: -47.5px;
+  margin-left: -47.5px;
+}
+.row.spacing-95 > [class*=col-], .row.spacing-95 > [class*=" col-"], .row.spacing-95 > [class*=col], .row.spacing-95 .p_item {
+  padding-left: 47.5px;
+  padding-right: 47.5px;
+}
+
+.row.spacing-100 {
+  margin-right: -50px;
+  margin-left: -50px;
+}
+.row.spacing-100 > [class*=col-], .row.spacing-100 > [class*=" col-"], .row.spacing-100 > [class*=col], .row.spacing-100 .p_item {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media (max-width: 991px) {
+  .row.spacing-md-0 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .row.spacing-md-0 > [class*=col-], .row.spacing-md-0 > [class*=" col-"], .row.spacing-md-0 > [class*=col] {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .row.spacing-md-5 {
+    margin-right: -2.5px;
+    margin-left: -2.5px;
+  }
+  .row.spacing-md-5 > [class*=col-], .row.spacing-md-5 > [class*=" col-"], .row.spacing-md-5 > [class*=col] {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+  }
+
+  .row.spacing-md-10 {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  .row.spacing-md-10 > [class*=col-], .row.spacing-md-10 > [class*=" col-"], .row.spacing-md-10 > [class*=col] {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .row.spacing-md-15 {
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+  }
+  .row.spacing-md-15 > [class*=col-], .row.spacing-md-15 > [class*=" col-"], .row.spacing-md-15 > [class*=col] {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+  }
+
+  .row.spacing-md-20 {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .row.spacing-md-20 > [class*=col-], .row.spacing-md-20 > [class*=" col-"], .row.spacing-md-20 > [class*=col] {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .row.spacing-md-25 {
+    margin-right: -12.5px;
+    margin-left: -12.5px;
+  }
+  .row.spacing-md-25 > [class*=col-], .row.spacing-md-25 > [class*=" col-"], .row.spacing-md-25 > [class*=col] {
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+  }
+
+  .row.spacing-md-30 {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .row.spacing-md-30 > [class*=col-], .row.spacing-md-30 > [class*=" col-"], .row.spacing-md-30 > [class*=col] {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .row.spacing-sm-0 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .row.spacing-sm-0 > [class*=col-], .row.spacing-sm-0 > [class*=" col-"], .row.spacing-sm-0 > [class*=col] {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .row.spacing-sm-5 {
+    margin-right: -2.5px;
+    margin-left: -2.5px;
+  }
+  .row.spacing-sm-5 > [class*=col-], .row.spacing-sm-5 > [class*=" col-"], .row.spacing-sm-5 > [class*=col] {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+  }
+
+  .row.spacing-sm-10 {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  .row.spacing-sm-10 > [class*=col-], .row.spacing-sm-10 > [class*=" col-"], .row.spacing-sm-10 > [class*=col] {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .row.spacing-sm-15 {
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+  }
+  .row.spacing-sm-15 > [class*=col-], .row.spacing-sm-15 > [class*=" col-"], .row.spacing-sm-15 > [class*=col] {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+  }
+
+  .row.spacing-sm-20 {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .row.spacing-sm-20 > [class*=col-], .row.spacing-sm-20 > [class*=" col-"], .row.spacing-sm-20 > [class*=col] {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .row.spacing-sm-25 {
+    margin-right: -12.5px;
+    margin-left: -12.5px;
+  }
+  .row.spacing-sm-25 > [class*=col-], .row.spacing-sm-25 > [class*=" col-"], .row.spacing-sm-25 > [class*=col] {
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+  }
+
+  .row.spacing-sm-30 {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .row.spacing-sm-30 > [class*=col-], .row.spacing-sm-30 > [class*=" col-"], .row.spacing-sm-30 > [class*=col] {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 
