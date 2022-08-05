@@ -1,25 +1,24 @@
 .footer {
-  &-block {
+  .footer-block {
     background: #081a1e;
   }
-  &-contact {
+  .footer-contact {
     margin-bottom: 40px;
   }
-  &-logo {
+  .footer-logo {
     img {
       padding: 80px 0 11px 39px;
     }
   }
 
-  &-social {
-    &_block {
+  .footer-social {
+    .footer-social_block {
       padding: 10px 0 0 37px;
     }
-    &_icons {
-      ul{
-        padding-left: 0;
-      }
-      li {
+    .footer-social_icons {
+      padding-left: 0;
+      list-style: none;
+      .footer-social_icons-items {
         margin-right: 20px;
         a {
           font-size: 2rem;
