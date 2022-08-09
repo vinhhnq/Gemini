@@ -452,6 +452,9 @@ dl, ol, ul {
     padding-right: 15px;
   }
 }
+.header {
+  position: relative;
+}
 .header .site-header {
   position: relative;
   display: flex;
@@ -502,22 +505,21 @@ dl, ol, ul {
 .header .site-header-icons_link:hover {
   color: orange;
 }
-
-.header-mobile {
+.header .header-mobile {
   background: #081a1e;
   padding: 20px;
 }
-.header-mobile .mobile-menu_item {
+.header .header-mobile .mobile-menu_item {
   color: #fff;
   font-size: 2.4rem;
 }
-.header-mobile .header-mobile_search {
+.header .header-mobile .header-mobile_search {
   margin-top: 20px;
 }
-.header-mobile .header-mobile_search .mobile-search {
+.header .header-mobile .header-mobile_search .mobile-search {
   position: relative;
 }
-.header-mobile .header-mobile_search .mobile-search .search-header_input {
+.header .header-mobile .header-mobile_search .mobile-search .search-header_input {
   width: 100%;
   border: none;
   height: 34px;
@@ -526,7 +528,7 @@ dl, ol, ul {
   line-height: 1.2rem;
   border-radius: 17px;
 }
-.header-mobile .header-mobile_search .mobile-search_btn {
+.header .header-mobile .header-mobile_search .mobile-search_btn {
   border: none;
   background-color: transparent;
   position: absolute;
@@ -536,12 +538,32 @@ dl, ol, ul {
   font-size: 2.1rem;
   cursor: pointer;
 }
-.header-mobile .mobile-icons {
-  gap: 25px;
+.header .header-mobile .mobile-icons {
+  gap: 30px;
   font-size: 3rem;
 }
-.header-mobile .mobile-icons .mobile-icons_link {
+.header .header-mobile .mobile-icons .mobile-icons_link {
   color: white;
+}
+.header #header-sticky {
+  position: fixed;
+  background: white;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  transition: top 0.45s ease;
+  visibility: visible;
+}
+.header #header-sticky .stickymenu-search .search-box .menu-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  font-size: 1.2rem;
+  padding: 0 35px 0 10px;
+  line-height: 1.2rem;
+  outline: none;
 }
 
 #main--content .main-section .section-banner .banner-top_item {

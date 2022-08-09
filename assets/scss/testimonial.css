@@ -1,0 +1,69 @@
+#main--content .main-section .section_testimonial {
+  background: #f2f2f2;
+}
+
+#main--content .main-section .section_testimonial .section_testimonial-block {
+  padding: 0 30px;
+}
+
+#main--content .main-section .section_testimonial .section_testimonial-items {
+  background-color: #fff;
+  padding: 35px 40px 30px;
+  -webkit-box-shadow: 0 4px 10px #00000026;
+          box-shadow: 0 4px 10px #00000026;
+}
+
+#main--content .main-section .section_testimonial .section_testimonial-items .section_testimonial-items_name {
+  font-size: 1.4rem;
+  font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+
+#main--content .main-section .section_testimonial .section_testimonial-items .section_testimonial-items_info {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #909090;
+  margin-bottom: 15px;
+}
+
+#main--content .main-section .section_testimonial .section_testimonial-items i {
+  color: #f9c964;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+#main--content .main-section .section_testimonial .section_testimonial-items p {
+  font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #909090;
+}
+
+#main--content .main-section .section_testimonial .section_testimonial-title-block {
+  display: block;
+  margin-bottom: 26px;
+}
+
+#main--content .main-section .section_testimonial .section_testimonial-title-block_text {
+  font-size: 3rem;
+  color: #222;
+  margin-bottom: 26px;
+  font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+  font-weight: 800;
+  text-transform: none;
+}
+
+#main--content .main-section .section_testimonial .section_testimonial-title-block .section_testimonial-title-block_sub {
+  display: block;
+  font-size: 10px;
+  color: #909090;
+  font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+  font-weight: 400;
+  font-style: initial;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+/*# sourceMappingURL=testimonial.css.map */

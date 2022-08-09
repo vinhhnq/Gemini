@@ -1,4 +1,4 @@
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
   .mb-xs-10 {
     margin-bottom: 10px !important;
   }
@@ -16,16 +16,15 @@
   }
 }
 
-@media(max-width: 990px){
+@media (max-width: 990px) {
   .block-footer {
     padding: 40px 15px 0 35px;
   }
   .instagram-img_image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
-@media(max-width: 767px){
-  
-}
+/*# sourceMappingURL=responsive.css.map */

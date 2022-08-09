@@ -1,0 +1,94 @@
+#main--content .main-section .section-banner .banner-top_item {
+  position: relative;
+}
+
+#main--content .main-section .section-banner .banner-top_item .banner-top_btn {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 38%;
+  background: white;
+  padding: 13px 30px;
+}
+
+#main--content .main-section .section-banner .banner-top_item .banner-top_btn:hover {
+  background: #FF6000FF;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+#main--content .main-section .section-banner .banner-top_item .banner-top_btn-text {
+  text-align: center;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#main--content .main-section .section-banner .banner-gallery_item {
+  position: relative;
+}
+
+#main--content .main-section .section-product {
+  display: block;
+  padding-bottom: 81px;
+}
+
+#main--content .main-section .section-product .section_product-title_block {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 70px 0 40px 0;
+}
+
+#main--content .main-section .section-product .section_product-title_block .section_product-title_block--text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+  margin-bottom: 40px;
+}
+
+#main--content .main-section .section-product .section_product--image {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#main--content .main-section .section-product .section_product-info {
+  margin-top: 15px;
+}
+
+#main--content .main-section .section-product .section_product-info--rating {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#main--content .main-section .section-product .section_product-info--star {
+  display: inline-block;
+  color: #fad78b;
+  margin-right: 2px;
+}
+
+#main--content .main-section .section-product .section_product-info--name a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #444;
+  font-weight: 700;
+  font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+}
+
+#main--content .main-section .section-product .section_product-info--name a:hover {
+  color: #ff6000;
+}
+
+#main--content .main-section .section-product .section_product-info--price span {
+  display: block;
+  font-size: 1.4rem;
+  color: #444;
+  font-weight: 800;
+  font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+}
+/*# sourceMappingURL=banner.css.map */
