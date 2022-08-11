@@ -550,9 +550,10 @@ dl, ol, ul {
   background: white;
   z-index: 1;
   width: 100%;
-  top: 0;
+  top: -50%;
   transition: top 0.45s ease;
   visibility: visible;
+  padding: 10px 0;
 }
 .header #header-sticky .stickymenu-search .search-box .menu-input {
   width: 100%;
