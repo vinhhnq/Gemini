@@ -3,6 +3,7 @@
     .section-banner {
       .banner-top_item{
         position: relative;
+
         .banner-top_btn {
           position: absolute;
           left: 50%;
@@ -26,11 +27,11 @@
       }
       .banner-gallery_item {
         position: relative;
+        .banner-gallery_item {
+          position: absolute;
 
+        }
       }
-
-
-      // banner_products--
 
     }
     .section-product {

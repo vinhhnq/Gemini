@@ -667,7 +667,7 @@
 	Owl.prototype.refresh = function() {
 		this.enter('refreshing');
 		this.trigger('refresh');
-
+		
 		this.setup();
 
 		this.optionsLogic();

@@ -73,4 +73,17 @@ $(document).ready(function(){
 });
 
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header-sticky").style.top = "-50%";
+  } else {
+    document.getElementById("header-sticky").style.top = "0";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+
 
